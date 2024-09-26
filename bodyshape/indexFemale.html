@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shape Calculator for female</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Body Shape Calculator for female</h1>
+        <form id="bodyShapeForm">
+            <label for="shoulders">Shoulder Width (in inches):</label>
+            <input type="number" id="shoulders" required>
+            
+            <label for="bust">Bust (in inches):</label>
+            <input type="number" id="bust" required>
+            
+            <label for="waist">Waist (in inches):</label>
+            <input type="number" id="waist" required>
+            
+            <label for="hips">Hip (in inches):</label>
+            <input type="number" id="hips" required>
+            
+            <button type="button" onclick="calculateBodyShape()">Calculate Body Shape</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+  

@@ -1,0 +1,33 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shape Calculator for Male</title>
+    <link rel="stylesheet" href="stylem.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Body Shape Calculator for Male</h1>
+        <form id="bodyShapeForm">
+            <label for="shoulders">Shoulder Width (inches):</label>
+            <input type="number" id="shoulders" required>
+            
+            <label for="chest">Chest Width (inches):</label>
+            <input type="number" id="chest" required>
+            
+            <label for="waist">Waist Width (inches):</label>
+            <input type="number" id="waist" required>
+            
+            <label for="hips">Hip Width (inches):</label>
+            <input type="number" id="hips" required>
+            
+            <button type="button" onclick="calculateBodyShape()">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="scriptm.js"></script>
+</body>
+</html>
+

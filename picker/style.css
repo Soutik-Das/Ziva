@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+}
+
+.canvas-container {
+  position: relative;
+  display: inline-block;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
+
+.color-picker {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.color-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
