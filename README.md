@@ -4,3 +4,5 @@ clothing store, with recommendation based on body shape
 Author- Anurag Chakraborty 
 <br>
 Managment - Soutrick Mukhopadhyay
+<br>
+Front end - Soutik Das
